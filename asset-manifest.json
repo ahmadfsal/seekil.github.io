@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/seekil.github.io/static/css/main.a617e044.chunk.css",
-    "main.js": "/seekil.github.io/static/js/main.ef484e29.chunk.js",
-    "main.js.map": "/seekil.github.io/static/js/main.ef484e29.chunk.js.map",
-    "runtime-main.js": "/seekil.github.io/static/js/runtime-main.02e00d3a.js",
-    "runtime-main.js.map": "/seekil.github.io/static/js/runtime-main.02e00d3a.js.map",
-    "static/js/2.4e3d1cef.chunk.js": "/seekil.github.io/static/js/2.4e3d1cef.chunk.js",
-    "static/js/2.4e3d1cef.chunk.js.map": "/seekil.github.io/static/js/2.4e3d1cef.chunk.js.map",
-    "static/js/3.8fd4406e.chunk.js": "/seekil.github.io/static/js/3.8fd4406e.chunk.js",
-    "static/js/3.8fd4406e.chunk.js.map": "/seekil.github.io/static/js/3.8fd4406e.chunk.js.map",
-    "index.html": "/seekil.github.io/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/seekil.github.io/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.4e3d1cef.chunk.js.LICENSE.txt": "/seekil.github.io/static/js/2.4e3d1cef.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/seekil.github.io/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.a617e044.chunk.css",
+    "main.js": "/static/js/main.ef484e29.chunk.js",
+    "main.js.map": "/static/js/main.ef484e29.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7063a25b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7063a25b.js.map",
+    "static/js/2.4e3d1cef.chunk.js": "/static/js/2.4e3d1cef.chunk.js",
+    "static/js/2.4e3d1cef.chunk.js.map": "/static/js/2.4e3d1cef.chunk.js.map",
+    "static/js/3.8fd4406e.chunk.js": "/static/js/3.8fd4406e.chunk.js",
+    "static/js/3.8fd4406e.chunk.js.map": "/static/js/3.8fd4406e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.4e3d1cef.chunk.js.LICENSE.txt": "/static/js/2.4e3d1cef.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.02e00d3a.js",
+    "static/js/runtime-main.7063a25b.js",
     "static/js/2.4e3d1cef.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.ef484e29.chunk.js"
