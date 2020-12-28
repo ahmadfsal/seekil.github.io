@@ -1,0 +1,25 @@
+ul {
+    li {
+        padding: 0.3rem 0rem;
+    }
+}
+
+.is-fullheight {
+    height: 100%;
+}
+
+.ls-1 {
+    letter-spacing: 0.7.5px !important;
+}
+.ls-2 {
+    letter-spacing: 1.5px !important;
+}
+.ls-3 {
+    letter-spacing: 3px !important;
+}
+
+.has-border {
+    &-bottom {
+        border-bottom: 1px solid gray;
+    }
+}
