@@ -4,22 +4,106 @@ ul {
     }
 }
 
-.is-fullheight {
-    height: 100%;
+.has-animation-transition {
+    transition: ease-in-out 0.5s;
+
+    &-1 {
+        transition: ease-in-out 0.2s !important;
+    }
+}
+
+.navbar-item {
+    &:hover {
+        background-color: transparent !important;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            width: 50%;
+            left: 25%;
+            border-top: 1px solid orangered;
+        }
+    }
+}
+
+.is {
+    &-fullheight {
+        height: 100%;
+    }
+    &-paddingless {
+        padding: 0 !important;
+    }
+    &-marginless {
+        margin: 0 !important;
+    }
 }
 
 .ls-1 {
-    letter-spacing: 0.7.5px !important;
+    letter-spacing: $letter-spacing-1 !important;
 }
 .ls-2 {
-    letter-spacing: 1.5px !important;
+    letter-spacing: $letter-spacing-2 !important;
 }
 .ls-3 {
-    letter-spacing: 3px !important;
+    letter-spacing: $letter-spacing-3 !important;
+}
+
+.is-border-radius {
+    &-1 {
+        border-radius: $radius-1;
+    }
+}
+
+.is-circle {
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    &:hover {
+        @extend .has-animation-transition-1;
+
+        color: orangered;
+        background-color: white;
+    }
 }
 
 .has-border {
     &-bottom {
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #6f737d;
+    }
+    &-right {
+        border-right: 1px solid #6f737d;
+    }
+}
+
+.has-box-shadow {
+    box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1),
+        0 0px 0 1px rgba(0, 0, 0, 0.02);
+}
+
+.services-card {
+    background-color: transparent !important;
+    border-radius: 0px !important;
+
+    &.odd-index {
+        box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1) !important;
+    }
+    &.even-index {
+        box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    &:hover {
+        @extend .has-box-shadow;
+        @extend .has-animation-transition-1;
+
+        background-color: white !important;
     }
 }

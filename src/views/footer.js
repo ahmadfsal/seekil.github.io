@@ -43,7 +43,7 @@ const Footer = () => {
                 </Column>
 
                 <Column>
-                    <p className='has-text-white'>Follow Us</p>
+                    <p className='has-text-white is-size-5 has-text-weight-bold'>Follow us:</p>
                     <Columns className='mt-3'>
                         <Column>
                             <a

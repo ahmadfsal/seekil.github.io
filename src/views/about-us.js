@@ -3,16 +3,16 @@ import { Section, Columns, Column, Button } from 'library'
 const AboutUs = () => {
     return (
         <Section id='about_us' className='has-background-grey-lighter'>
-            <Columns>
-                <Column>
+            <Columns className='is-multiline is-centered is-variable is-8'>
+                <Column className='is-narrow'>
                     <img
-                        src='https://bulma.io/images/placeholders/480x320.png'
+                        src='https://unsplash.it/300/200/?random&pic=2'
                         alt='about us'
-                        className='image is-3by2'
+                        className='image is-border-radius-1'
                     />
                 </Column>
-                <Column>
-                    <p className='is-size-6 has-text-weight-bold has-text-warning-dark is-uppercase ls-3'>
+                <Column className='is-narrow'>
+                    <p className='is-size-7 has-text-weight-bold has-text-warning-dark is-uppercase ls-3'>
                         About Us
                     </p>
                     <p className='is-size-4 has-text-weight-bold has-text-black is-capitalized'>

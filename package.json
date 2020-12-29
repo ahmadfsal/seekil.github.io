@@ -22,8 +22,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy": "yarn build && gh-pages -d build",
     "start": "cross-env NODE_PATH=./src react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

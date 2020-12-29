@@ -1,4 +1,4 @@
-import { Card, Columns, Column, Section } from 'library'
+import { Columns, Column, Section } from 'library'
 import { galleryList } from 'constant'
 
 const Gallery = () => {
@@ -9,27 +9,14 @@ const Gallery = () => {
             subtitle='Our Work Excellent'
             className='has-background-white-ter'
         >
-            <Columns className='is-multiline'>
+            <Columns className='is-multiline is-centered'>
                 {galleryList.map((item, index) => (
-                    <Column
-                        key={index}
-                        className='is-one-quarter-desktop is-half-tablet'
-                    >
-                        <Card>
-                            <div className='card-image'>
-                                <figure className='image is-3by2'>
-                                    <img
-                                        src={item.image}
-                                        alt={`gallery-${index}`}
-                                    />
-                                </figure>
-                                <div className='card-content is-overlay is-clipped'>
-                                    <span className='tag is-info'>
-                                        {item.title}
-                                    </span>
-                                </div>
-                            </div>
-                        </Card>
+                    <Column key={index} className='is-narrow'>
+                        <img
+                            src={item.image}
+                            alt={`gallery-${index}`}
+                            className='is-border-radius-1 has-box-shadow image'
+                        />
                     </Column>
                 ))}
             </Columns>

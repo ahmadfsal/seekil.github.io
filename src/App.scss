@@ -23,16 +23,17 @@
 
 .footer {
     &-icon-social {
-        border: 1px solid white;
+        border: 1px solid #6f737d;
         border-radius: 2px;
-        padding: 12px;
+        padding: 8px 12px;
         text-align: center;
-        width: 50px;
         cursor: pointer;
 
         &:hover {
             background-color: orangered;
-            color: white;
+            color: orangered;
+            border: 1px solid orangered;
+            transition: ease-in-out .2s;
         }
     }
 }

@@ -3,7 +3,7 @@ import {
     Services,
     Gallery,
     Blank,
-    // Testimonial,
+    Testimonial,
     AboutUs,
     Location,
     Footer
@@ -14,11 +14,11 @@ const App = () => {
     return (
         <>
             <Banner />
-            <AboutUs />
             <Services />
             <Gallery />
             <Blank />
-            {/* <Testimonial /> */}
+            <Testimonial />
+            <AboutUs />
             <Location />
             <Footer />
         </>

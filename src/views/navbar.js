@@ -6,10 +6,22 @@ import Logo2 from 'assets/images/seekil-logo 2.png'
 
 const Navbar = () => {
     const [isInTop, setIsInTop] = useState(true)
+    const [isActiveBurger, setIsActiveBurger] = useState(false)
+
+    const navBurgerClasses = classnames(
+        'navbar-burger has-text-white',
+        isActiveBurger ? 'is-active' : ''
+    )
+
+    const navBurgerMenuClasses = classnames(
+        'navbar-menu has-animation-transition',
+        isActiveBurger ? 'is-active' : ''
+    )
+
     const navbarClasses = classnames(
-        'navbar is-spaced is-fixed-top',
+        'navbar is-spaced is-fixed-top has-animation-transition',
         isInTop && 'has-border-bottom',
-        !isInTop && 'has-background-black',
+        !isInTop && 'has-background-black'
     )
 
     const handleScroll = () => {
@@ -20,6 +32,8 @@ const Navbar = () => {
         } else {
             if (!isInTop) setIsInTop(true)
         }
+
+        setIsActiveBurger(false)
     }
 
     useEffect(() => {
@@ -33,23 +47,23 @@ const Navbar = () => {
     return (
         <nav
             className={navbarClasses}
-            style={{
-                transition: 'ease-in',
-                transitionDuration: 1
-            }}
             role='navigation'
             aria-label='main navigation'
         >
             <div className='navbar-brand'>
-                <a className='navbar-item' onClick={() => scrollToView('banner')}>
+                <a
+                    className='navbar-item'
+                    onClick={() => scrollToView('banner')}
+                >
                     <img src={Logo2} className='logo' alt='logo' />
                 </a>
                 <a
                     role='button'
-                    className='navbar-burger'
+                    className={navBurgerClasses}
                     aria-label='menu'
                     aria-expanded='false'
                     data-target='navbarBasicExample'
+                    onClick={() => setIsActiveBurger(!isActiveBurger)}
                 >
                     <span aria-hidden='true'></span>
                     <span aria-hidden='true'></span>
@@ -57,7 +71,7 @@ const Navbar = () => {
                 </a>
             </div>
 
-            <div id='navbarBasicExample' className='navbar-menu'>
+            <div id='navbarBasicExample' className={navBurgerMenuClasses}>
                 <div className='navbar-start'>
                     {navbarMenus.map((item, index) => (
                         <a
