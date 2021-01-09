@@ -1,24 +1,36 @@
 {
   "files": {
-    "main.css": "/seekil.github.io/static/css/main.0bb51649.chunk.css",
-    "main.js": "/seekil.github.io/static/js/main.0c13f252.chunk.js",
-    "main.js.map": "/seekil.github.io/static/js/main.0c13f252.chunk.js.map",
-    "runtime-main.js": "/seekil.github.io/static/js/runtime-main.a3ff6dfe.js",
-    "runtime-main.js.map": "/seekil.github.io/static/js/runtime-main.a3ff6dfe.js.map",
-    "static/js/2.e424d1f0.chunk.js": "/seekil.github.io/static/js/2.e424d1f0.chunk.js",
-    "static/js/2.e424d1f0.chunk.js.map": "/seekil.github.io/static/js/2.e424d1f0.chunk.js.map",
-    "static/js/3.0296cd39.chunk.js": "/seekil.github.io/static/js/3.0296cd39.chunk.js",
-    "static/js/3.0296cd39.chunk.js.map": "/seekil.github.io/static/js/3.0296cd39.chunk.js.map",
+    "main.css": "/seekil.github.io/static/css/main.84b3e591.chunk.css",
+    "main.js": "/seekil.github.io/static/js/main.90ba2217.chunk.js",
+    "main.js.map": "/seekil.github.io/static/js/main.90ba2217.chunk.js.map",
+    "runtime-main.js": "/seekil.github.io/static/js/runtime-main.f342027f.js",
+    "runtime-main.js.map": "/seekil.github.io/static/js/runtime-main.f342027f.js.map",
+    "static/js/2.3eb87695.chunk.js": "/seekil.github.io/static/js/2.3eb87695.chunk.js",
+    "static/js/2.3eb87695.chunk.js.map": "/seekil.github.io/static/js/2.3eb87695.chunk.js.map",
+    "static/js/3.321f2280.chunk.js": "/seekil.github.io/static/js/3.321f2280.chunk.js",
+    "static/js/3.321f2280.chunk.js.map": "/seekil.github.io/static/js/3.321f2280.chunk.js.map",
     "index.html": "/seekil.github.io/index.html",
-    "static/css/main.0bb51649.chunk.css.map": "/seekil.github.io/static/css/main.0bb51649.chunk.css.map",
-    "static/js/2.e424d1f0.chunk.js.LICENSE.txt": "/seekil.github.io/static/js/2.e424d1f0.chunk.js.LICENSE.txt",
+    "static/css/main.84b3e591.chunk.css.map": "/seekil.github.io/static/css/main.84b3e591.chunk.css.map",
+    "static/js/2.3eb87695.chunk.js.LICENSE.txt": "/seekil.github.io/static/js/2.3eb87695.chunk.js.LICENSE.txt",
     "static/media/cover-banner.c915f0b5.jpg": "/seekil.github.io/static/media/cover-banner.c915f0b5.jpg",
-    "static/media/seekil-logo 2.3351b782.png": "/seekil.github.io/static/media/seekil-logo 2.3351b782.png"
+    "static/media/gallery1.2421faf2.jpg": "/seekil.github.io/static/media/gallery1.2421faf2.jpg",
+    "static/media/gallery2.9a80d6fe.jpg": "/seekil.github.io/static/media/gallery2.9a80d6fe.jpg",
+    "static/media/gallery3.f57e3213.jpg": "/seekil.github.io/static/media/gallery3.f57e3213.jpg",
+    "static/media/gallery4.de7d7b34.jpg": "/seekil.github.io/static/media/gallery4.de7d7b34.jpg",
+    "static/media/gallery5.c12b0519.jpg": "/seekil.github.io/static/media/gallery5.c12b0519.jpg",
+    "static/media/gallery6.8779a2f7.jpg": "/seekil.github.io/static/media/gallery6.8779a2f7.jpg",
+    "static/media/kids_&_women_shoes.c33c7d68.svg": "/seekil.github.io/static/media/kids_&_women_shoes.c33c7d68.svg",
+    "static/media/seekil-logo-white.8277a391.png": "/seekil.github.io/static/media/seekil-logo-white.8277a391.png",
+    "static/media/seekil-maps.92b4debb.png": "/seekil.github.io/static/media/seekil-maps.92b4debb.png",
+    "static/media/shoes_brush.928e7ea1.svg": "/seekil.github.io/static/media/shoes_brush.928e7ea1.svg",
+    "static/media/testimonial-agung.c37cf668.jpg": "/seekil.github.io/static/media/testimonial-agung.c37cf668.jpg",
+    "static/media/testimonial-tri.928ae9c7.jpg": "/seekil.github.io/static/media/testimonial-tri.928ae9c7.jpg",
+    "static/media/testimonial-wakhid.2b2d1747.jpg": "/seekil.github.io/static/media/testimonial-wakhid.2b2d1747.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3ff6dfe.js",
-    "static/js/2.e424d1f0.chunk.js",
-    "static/css/main.0bb51649.chunk.css",
-    "static/js/main.0c13f252.chunk.js"
+    "static/js/runtime-main.f342027f.js",
+    "static/js/2.3eb87695.chunk.js",
+    "static/css/main.84b3e591.chunk.css",
+    "static/js/main.90ba2217.chunk.js"
   ]
 }
