@@ -1,8 +1,8 @@
-import classnames from 'classnames'
+import classnames from 'classnames';
 
 const Section = (props) => {
-    const { children, className, id, title = '', subtitle = '' } = props
-    const classes = classnames('section', className)
+    const { children, className, id, title = '', subtitle = '' } = props;
+    const classes = classnames('section', className);
 
     return (
         <section className={classes} id={id}>
@@ -17,7 +17,7 @@ const Section = (props) => {
 
             {children}
         </section>
-    )
-}
+    );
+};
 
-export default Section
+export default Section;

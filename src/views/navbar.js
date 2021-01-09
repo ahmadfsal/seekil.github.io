@@ -1,48 +1,49 @@
-import { useEffect, useState } from 'react'
-import { navbarMenus } from 'constant'
-import { scrollToView } from 'utils'
-import classnames from 'classnames'
-import Logo2 from 'assets/images/seekil-logo 2.png'
+import { useEffect, useState } from 'react';
+import { navbarMenus } from 'constant';
+import { scrollToView } from 'utils';
+import classnames from 'classnames';
+import Logo from 'assets/images/seekil-logo-white.png';
 
 const Navbar = () => {
-    const [isInTop, setIsInTop] = useState(true)
-    const [isActiveBurger, setIsActiveBurger] = useState(false)
+    const [isInTop, setIsInTop] = useState(true);
+    const [isActiveBurger, setIsActiveBurger] = useState(false);
 
     const navBurgerClasses = classnames(
         'navbar-burger has-text-white',
         isActiveBurger ? 'is-active' : ''
-    )
+    );
 
     const navBurgerMenuClasses = classnames(
         'navbar-menu has-animation-transition',
-        isActiveBurger ? 'is-active' : ''
-    )
+        isActiveBurger ? 'is-active has-background-black' : ''
+    );
 
     const navbarClasses = classnames(
         'navbar is-spaced is-fixed-top has-animation-transition',
         isInTop && 'has-border-bottom',
-        !isInTop && 'has-background-black'
-    )
+        !isInTop && 'has-background-black',
+        isActiveBurger ? 'has-background-black' : ''
+    );
 
     const handleScroll = () => {
-        let scrolled = document.scrollingElement.scrollTop
+        let scrolled = document.scrollingElement.scrollTop;
 
         if (scrolled >= 120) {
-            if (isInTop) setIsInTop(false)
+            if (isInTop) setIsInTop(false);
         } else {
-            if (!isInTop) setIsInTop(true)
+            if (!isInTop) setIsInTop(true);
         }
 
-        setIsActiveBurger(false)
-    }
+        setIsActiveBurger(false);
+    };
 
     useEffect(() => {
-        document.addEventListener('scroll', handleScroll)
+        document.addEventListener('scroll', handleScroll);
 
         return () => {
-            document.removeEventListener('scroll', handleScroll)
-        }
-    }, [isInTop])
+            document.removeEventListener('scroll', handleScroll);
+        };
+    }, [isInTop]);
 
     return (
         <nav
@@ -52,10 +53,10 @@ const Navbar = () => {
         >
             <div className='navbar-brand'>
                 <a
-                    className='navbar-item'
+                    className='navbar-item brand'
                     onClick={() => scrollToView('banner')}
                 >
-                    <img src={Logo2} className='logo' alt='logo' />
+                    <img src={Logo} className='navbar-logo' alt='logo' />
                 </a>
                 <a
                     role='button'
@@ -72,11 +73,11 @@ const Navbar = () => {
             </div>
 
             <div id='navbarBasicExample' className={navBurgerMenuClasses}>
-                <div className='navbar-start'>
+                <div className='navbar-end'>
                     {navbarMenus.map((item, index) => (
                         <a
                             key={index}
-                            className='navbar-item has-text-white'
+                            className='navbar-item has-text-white has-text-weight-semibold'
                             onClick={() => scrollToView(item.elementId)}
                         >
                             {item.title}
@@ -85,7 +86,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;

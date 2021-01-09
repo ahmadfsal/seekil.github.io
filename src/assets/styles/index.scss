@@ -16,8 +16,14 @@
 @import '../../../node_modules/bulma/sass/elements/title.sass';
 @import '../../../node_modules/bulma/sass/elements/tag.sass';
 @import '../../../node_modules/bulma/sass/elements/image.sass';
+@import '../../../node_modules/bulma/sass/elements/icon.sass';
 @import '../../../node_modules/bulma/sass/layout/hero.sass';
 @import '../../../node_modules/bulma/sass/layout/section.sass';
 @import '../../../node_modules/bulma/sass/components/_all.sass';
 @import '../../../node_modules/bulma/sass/helpers/_all.sass';
 @import '../../../node_modules/bulma/sass/grid/_all.sass';
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}

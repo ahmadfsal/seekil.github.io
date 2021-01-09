@@ -1,9 +1,9 @@
-import { Columns, Column } from 'library'
-import { scrollToView } from 'utils'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { navbarMenus } from 'constant'
-import Logo from 'assets/images/seekil-logo 2.png'
+import { Columns, Column } from 'library';
+import { scrollToView } from 'utils';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { navbarMenus } from 'constant';
+import Logo from 'assets/images/seekil-logo-white.png';
 
 const Footer = () => {
     return (
@@ -17,7 +17,7 @@ const Footer = () => {
                             alt='logo'
                             style={{
                                 objectFit: 'contain',
-                                width: 150
+                                width: 150,
                             }}
                         />
                     </a>
@@ -43,7 +43,9 @@ const Footer = () => {
                 </Column>
 
                 <Column>
-                    <p className='has-text-white is-size-5 has-text-weight-bold'>Follow us:</p>
+                    <p className='has-text-white is-size-5 has-text-weight-bold'>
+                        Follow us:
+                    </p>
                     <Columns className='mt-3'>
                         <Column>
                             <a
@@ -65,7 +67,7 @@ const Footer = () => {
                 </Column>
             </Columns>
         </footer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

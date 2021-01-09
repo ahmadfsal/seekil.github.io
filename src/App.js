@@ -6,9 +6,9 @@ import {
     Testimonial,
     AboutUs,
     Location,
-    Footer
-} from './views'
-import './App.scss'
+    Footer,
+} from './views';
+import './App.scss';
 
 const App = () => {
     return (
@@ -22,7 +22,7 @@ const App = () => {
             <Location />
             <Footer />
         </>
-    )
-}
+    );
+};
 
-export default App
+export default App;

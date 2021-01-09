@@ -1,5 +1,5 @@
-import { Columns, Column, Section } from 'library'
-import { galleryList } from 'constant'
+import { Columns, Column, Section } from 'library';
+import { galleryList } from 'constant';
 
 const Gallery = () => {
     return (
@@ -15,13 +15,13 @@ const Gallery = () => {
                         <img
                             src={item.image}
                             alt={`gallery-${index}`}
-                            className='is-border-radius-1 has-box-shadow image'
+                            className='is-border-radius-1 has-box-shadow image is-300-200'
                         />
                     </Column>
                 ))}
             </Columns>
         </Section>
-    )
-}
+    );
+};
 
-export default Gallery
+export default Gallery;

@@ -1,1 +1,1 @@
-export { scrollToView } from './scroll-to-view'
+export { scrollToView } from './scroll-to-view';
